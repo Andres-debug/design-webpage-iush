@@ -1,0 +1,722 @@
+[
+  {
+    "level": "Nivel 1",
+    "credits": 16,
+    "badge": 7,
+    "subjects": [
+      {
+        "name": "Creatividad gráfica",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Fundamentos del diseño",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Psicología del color",
+        "color": "bg-[#780D80]",
+        "description": "La materia Psicología del Color busca comprender la influencia del color en las emociones y percepciones humanas, así como su papel en la comunicación visual. El estudiante aprende a utilizarlos de manera estratégica para transmitir emociones sensaciones",
+        "type": "Fundamentación",
+        "subjectCredits": 2,
+        "teacher": "Sonia Peláez",
+        "teacherRole": "Coordinadora de Diseño Gráfico",
+        "teacherImage": "/teachers/Sonia.png"
+      },
+      {
+        "name": "Historia y teoría del arte",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Escuelas de diseño",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Ilustración Vectorial",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Cristología",
+        "color": "bg-[#1E3374]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      }
+    ]
+  },
+  {
+    "level": "Nivel 2",
+    "credits": 16,
+    "badge": 7,
+    "subjects": [
+      {
+        "name": "Creación & Dimensionado",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Teoría de la composición",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Procesos Creativos Gráficos",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Dibujo",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Edición de Imagen Digital",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Macrotendologia",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Razonamiento Cuantitativo",
+        "color": "bg-[#1E3374]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      }
+    ]
+  },
+  {
+    "level": "Nivel 3",
+    "credits": 16,
+    "badge": 7,
+    "subjects": [
+      {
+        "name": "Síntesis de la imagen",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Fotografía",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Transmedialidad",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Estética Contemporánea",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Maquetación Digital",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Pensamiento Estratégico",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Estadística Aplicada",
+        "color": "bg-[#1E3374]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      }
+    ]
+  },
+  {
+    "level": "Nivel 4",
+    "credits": 16,
+    "badge": 6,
+    "subjects": [
+      {
+        "name": "Creación de marca",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Logotipia",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Semiología",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Fotografía de producto",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Imagen y modelado 3D",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Fundamentos de investigación",
+        "color": "bg-[#1E3374]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      }
+    ]
+  },
+  {
+    "level": "Nivel 5",
+    "credits": 16,
+    "badge": 7,
+    "subjects": [
+      {
+        "name": "Diseño de objeto gráfico I",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Teoría de la innovación",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Literatura Visual",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Fotografía Editorial",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Lenguaje de programación",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Competencias Comunicativas I",
+        "color": "bg-[#1E3374]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Trayecto Formativo I",
+        "color": "bg-[#1E3374]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      }
+    ]
+  },
+  {
+    "level": "Nivel 6",
+    "credits": 16,
+    "badge": 7,
+    "subjects": [
+      {
+        "name": "Diseño de objeto gráfico II",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Herramútica Visual",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Fotografía en movimiento",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Efectos Visuales",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Lenguaje de programación II",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Competencias Comunicativas II",
+        "color": "bg-[#1E3374]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Trayecto Formativo II",
+        "color": "bg-[#1E3374]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      }
+    ]
+  },
+  {
+    "level": "Nivel 7",
+    "credits": 16,
+    "badge": 7,
+    "subjects": [
+      {
+        "name": "Diseño de objeto gráfico III",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Fundamentos de mercadeo",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Mercadeo digital",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Diseño Editorial Expandido",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Lenguaje de programación III",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Mentalidad Emprendedora",
+        "color": "bg-[#1E3374]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Trayecto Formativo III",
+        "color": "bg-[#1E3374]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      }
+    ]
+  },
+  {
+    "level": "Nivel 8",
+    "credits": 16,
+    "badge": 6,
+    "subjects": [
+      {
+        "name": "Investigación para Trabajo de Grado",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Medios Digitales Integrados",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Proyecto Gráficos Expandido",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Propiedad Intelectual",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Mediaciones Transmediales",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Trayecto formativo IV",
+        "color": "bg-[#1E3374]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      }
+    ]
+  },
+  {
+    "level": "Nivel 9",
+    "credits": 16,
+    "badge": 7,
+    "subjects": [
+      {
+        "name": "Producción para Trabajo de Grado",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Costos y Presupuestos para Producción Gráfica",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Portafolio",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Economía Creatividad",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Producción Audiovisual",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Cultura Organizacional",
+        "color": "bg-[#1E3374]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Electiva I",
+        "color": "bg-[#1E3374]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      }
+    ]
+  },
+  {
+    "level": "Nivel 10",
+    "credits": 12,
+    "badge": 4,
+    "subjects": [
+      {
+        "name": "Práctica / Emprendimiento",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Ética Profesional",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Responsabilidad Social Empresarial",
+        "color": "bg-[#780D80]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      },
+      {
+        "name": "Electiva II",
+        "color": "bg-[#A4B1D8]",
+        "description": null,
+        "type": null,
+        "subjectCredits": null,
+        "teacher": null,
+        "teacherRole": null,
+        "teacherImage": null
+      }
+    ]
+  }
+]
