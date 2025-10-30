@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { LevelRow } from '../molecules/LevelRow';
 import { SubjectDetailModal } from './SubjectDetailModal';
-import curriculumData from '../../data/curriculumData.json';
-import type { Subject } from '../../types/curriculum';
+import rawCurriculumData from '../../data/curriculumData.json';
+import type { Subject, Level } from '../../types/curriculum';
 
 export const CurriculumGrid: React.FC = () => {
   const [selectedSubject, setSelectedSubject] = useState<Subject | null>(null);
@@ -17,6 +17,31 @@ export const CurriculumGrid: React.FC = () => {
     setIsModalOpen(false);
     setTimeout(() => setSelectedSubject(null), 300); // Esperar animación
   };
+
+  // Orden de momentos formativos (referencia estable)
+  const momentOrder = useMemo(
+    () => ['Fundamentación', 'Estructuración', 'Profundización', 'Proyección'],
+    []
+  );
+
+  // Normalizamos/Tipamos los datos importados del JSON
+  const curriculumData = useMemo(() => rawCurriculumData as unknown as Level[], []);
+
+  // Agrupamos niveles por momento formativo manteniendo el orden esperado
+  const groupedByMoment = useMemo(() => {
+    const groups = new Map<string, Level[]>();
+    for (const level of curriculumData) {
+      const key = level.moment ?? 'Otro';
+      const arr = groups.get(key) ?? [];
+      arr.push(level);
+      groups.set(key, arr);
+    }
+    const orderedKeys = [
+      ...momentOrder.filter((m) => groups.has(m)),
+      ...[...groups.keys()].filter((k) => !momentOrder.includes(k)),
+    ];
+    return orderedKeys.map((k) => ({ moment: k, levels: groups.get(k)! }));
+  }, [curriculumData, momentOrder]);
 
   return (
     <div className="bg-gray-50 py-12">
@@ -38,17 +63,31 @@ export const CurriculumGrid: React.FC = () => {
           </div>
         </div>
 
-        {/* Malla Curricular */}
-        <div className="space-y-4">
-          {curriculumData.map((levelData, index) => (
-            <LevelRow
-              key={index}
-              level={levelData.level}
-              subjects={levelData.subjects as Subject[]}
-              credits={levelData.credits}
-              badge={levelData.badge}
-              onSubjectClick={handleSubjectClick}
-            />
+        {/* Malla Curricular seccionada por momento formativo */}
+        <div className="space-y-8">
+          {groupedByMoment.map(({ moment, levels }) => (
+            <section key={moment} aria-labelledby={`moment-${moment}`}>
+              <div className="flex items-center gap-3 mb-4">
+                <div className="h-0.5 flex-1 bg-gray-200" />
+                <h3 id={`moment-${moment}`} className="text-xl font-semibold text-gray-900 whitespace-nowrap">
+                  {moment}
+                </h3>
+                <div className="h-0.5 flex-1 bg-gray-200" />
+              </div>
+
+              <div className="space-y-4">
+                {levels.map((levelData, index) => (
+                  <LevelRow
+                    key={`${moment}-${index}-${levelData.level}`}
+                    level={levelData.level}
+                    subjects={levelData.subjects as Subject[]}
+                    credits={levelData.credits}
+                    badge={levelData.badge}
+                    onSubjectClick={handleSubjectClick}
+                  />
+                ))}
+              </div>
+            </section>
           ))}
         </div>
       </div>

@@ -13,6 +13,8 @@ export interface Level {
   level: string;
   credits: number;
   badge: number;
+  /** Momento formativo: Fundamentación | Estructuración | Profundización | Proyección */
+  moment: string;
   subjects: Subject[];
 }
 
