@@ -1,0 +1,98 @@
+[
+  {
+    "id": "sonia",
+    "name": "Sonia Peláez",
+    "role": "Coordinadora de Diseño Gráfico",
+    "image": "/teachers/Sonia.png",
+    "summary": "Magíster en diseño de producto con textil tecnológico. Diseñadora gráfica, docente y líder de investigación de la Escuela de Artes de la IUSH.",
+    "experience": "Experiencia en creación de producto editorial, diseño, desarrollo y producción de impreso; manejo de producto tecnológico, manejo de materiales, conocimiento de comfort en vestuario, tech textile, biomimética y nanotecnología para desarrollo en buildtech (textil para la construcción), clothtech (textiles para la ropa), hometech (textiles domésticos), indutech (textiles industriales), oekotex en ecotech (textil de protección ecológica), packtech (textiles de embalaje), protech (textiles protectores), sporttech (textil deportivo), electrónica (sensores) en textiles."
+  },
+  {
+    "id": "andres",
+    "name": "Andres",
+    "role": "Docente",
+    "image": "/teachers/Andres.png",
+    "summary": "Desarrollador en ReactJS, Angular 8+, React-Native, Java SpringBoot, JavaScript, Wordpress, HTML5 y CSS3. Experiencia con tecnologías de control de versiones Git, como GitHub. He trabajado en proyectos bajo metodologías ágiles como SCRUM. ",
+    "experience": "Utiliza herramientas como Adobe Photoshop, Adobe XD, Adobe Illustrator y Figma para apoyar de manera creativa los proyectos en los que ha trabajado, asegurando que la experiencia del usuario y la presentación del producto sean las mejores posibles."
+  },
+  {
+    "id": "diana",
+    "name": "Diana",
+    "role": "Docente",
+    "image": "/teachers/Diana.png",
+    "summary": "Magister en gestión cultural y comunicadora en lenguajes audiovisuales, capacitada para evaluar y realizar acciones estratégicas comunicativas, sociales y gerenciales, para diversos tipos de públicos, mejorando de esta forma la imagen y la prestación de los servicios de una institución, producto o servicio.",
+    "experience": "Docente de Catedra Facultad de Gestión Creativa: Tecnológico de Artes Débora Arango Docente Asesora de Practica Profesional: Universidad de Medellín  Gestora Cultural: Facultad de Odontología - Universidad de Antioquia"
+  },
+  {
+    "id": "diego",
+    "name": "Diego Espitia",
+    "role": "Docente",
+    "image": "/teachers/Diego.png",
+    "summary": "Diseñador visual con más de 12 años de experiencia en identidad de marca, motion graphics, ilustración y diseño audiovisual. Combina creatividad, conceptualización y estrategia para desarrollar marcas y narrativas visuales con alto impacto estético y comunicativo. ",
+    "experience": "Con trayectoria en proyectos para instituciones culturales, startups, festivales y universidades, además de más de 10 años de experiencia docente en programas de diseño gráfico y visual."
+  },
+  {
+    "id": "edison",
+    "name": "Edison",
+    "role": "Docente",
+    "image": "/teachers/Edison.png",
+    "summary": "Profesional en Publicidad y Magíster en Administración de Empresas. Apasionado por la planeación de publicidad y marketing con especial interés por la industria creativa. Alta experiencia profesional en empresas de Publicidad y Marketing, en donde ha trabajado en equipo con los directivos de grandes y pequeñas empresas de diversos sectores económicos, mayormente bajo la figura de Ejecutivo Comercial y Account Planner (Ejecutivo de Planeación Estratégica).",
+    "experience": "Experiencia docente con la Universidad Pontificia Bolivariana, programa de Publicidad; Politécnico Gran Colombiano programa Mercadeo y Publicidad; Institución Universitaria Salazar y Herrera, programa de Mercadeo y actualmente en la misma institución, como Coordinador Académico para el programa de Publicidad. "
+  },
+  {
+    "id": "eduardo",
+    "name": "Eduardo",
+    "role": "Docente",
+    "image": "/teachers/Eduardo.png",
+    "summary": null,
+    "experience": null
+  },
+  {
+    "id": "gloria",
+    "name": "Gloria",
+    "role": "Docente",
+    "image": "/teachers/Gloria.png",
+    "summary": null,
+    "experience": null
+  },
+  {
+    "id": "jorge",
+    "name": "Jorge",
+    "role": "Docente",
+    "image": "/teachers/jorge.png",
+    "summary": null,
+    "experience": null
+  },
+  {
+    "id": "juan-david",
+    "name": "Juan David Giraldo",
+    "role": "Docente",
+    "image": "/teachers/JuanDavid.png",
+    "summary": "Animador 3D con 6 años de experiencia en el área de medios digitales desempeñando funciones como modelado de assets para banner, modelado de personajes para producción, modelado arquitectónico, textura PBR y cartoon, iluminación y render semirealista, animación motion graphic y de personajes y desarrollo de contenido audiovidual 3D y 2D. ",
+"experience": "Habilidades para el manejo de suite de Adobe, Blender, Autodesk Maya, Zbrush, Autodesk Sketchbook, Cinema 4D, Substance Painter, Clo, Marvelous Designer, Autodesk 3DS Max y Python, y con competencias como liderazgo, comunicación asertiva, adaptabilidad y manejo de grupos."
+   },
+  {
+    "id": "laura",
+    "name": "Laura Hurtado",
+    "role": "Docente",
+    "image": "/teachers/Laura.png",
+    "summary":"Comunicadora en Lenguajes Audiovisuales de la Universidad de Medellín y Magíster en Producción de Cine y Televisión (MFA) de la New York Film Academy. Su carrera se ha forjado en la práctica rigurosa del audiovisual, con experiencia profesional destacada en asistencia de dirección y producción de campo. Esta base sólida le ha permitido transicionar al ámbito académico, donde ahora ejerzo como docente de cátedra en las áreas de cine y diseño.",
+    "experience": "A lo largo de este recorrido ha desarrollado competencias en áreas como: Fundamentos básicos de producción cinematográfica, producción y análisis audiovisual, escritura de guion, proyectos vinculados a las narrativas transmedia, fotografía Editorial, historia del Diseño, acompañamiento y asesorías de trabajos de grado y elaboración conjunta de documentos maestros de programas profesionales"
+  },
+  {
+    "id": "maria", 
+    "name": "Maria",
+    "role": "Docente",
+    "image": "/teachers/Maria.png",
+    "summary": "Líder estratégico en educación y gestión de proyectos y líder transformadora con más de 15 años de experiencia en la educación superior, especializada en la gestión estratégica y el aseguramiento de la calidad. Mi enfoque se centra en impulsar el crecimiento institucional, la innovación educativa y la excelencia académica, demostrado en logros como el aumento del 320% en la población estudiantil de un programa y la optimización del 75% del presupuesto en alianzas. ",
+    "experience": "Docente: Institución Universitaria ITM Docente: Universidad Nacional Abierta y a Distancia - UNAD Colombia Docente Posgrados: Universidad Santo Tomás Medellín"
+  },
+  {
+    "id": "sergio",
+    "name": "Sergio",
+    "role": "Docente",
+    "image": "/teachers/Sergio.png",
+    "summary": null,
+    "experience": null
+  }
+]

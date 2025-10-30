@@ -1,11 +1,19 @@
+import { TeachersShowcase } from '../components/organisms/TeachersShowcase';
+import { TeachersStorySection } from '../components/organisms/TeachersStorySection';
+
 export const Docentes: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-gray-900 text-center">
-          Docentes
-        </h1>
-      </div>
-    </div>
+    <>
+      <TeachersShowcase />
+      <TeachersStorySection
+        title="Cada Docente tiene una historia y está dispuesto a escribir la tuya"
+        description="Detrás de cada clase hay años de experiencia, proyectos reales y una vocación por acompañarte. Conoce a quienes harán parte de tu proceso y descubre cómo su trayectoria puede potenciar la tuya."
+        imageSrc="/teachers/Edison.png"
+        imageAlt="Docente del programa de Diseño Gráfico"
+        ctaLabel="Escríbenos"
+        ctaHref="/contacto"
+        className="bg-white"
+      />
+    </>
   );
 };

@@ -1,0 +1,103 @@
+/* Animaciones básicas reutilizables */
+@keyframes fade-in-up {
+	from {
+		opacity: 0;
+		transform: translateY(8px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.animate-fade-in-up {
+	animation: fade-in-up 400ms ease-out both;
+}
+
+/* Fondo de rejilla neon con puntos y líneas, inspirado en el arte de referencia */
+.bg-neon-grid {
+	position: relative;
+}
+.bg-neon-grid::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: radial-gradient(circle at center, rgba(120,13,128,0.35), transparent 50%);
+	pointer-events: none;
+}
+
+	/* Animaciones estilo arcade para selección de docente */
+	@keyframes arcade-pop {
+		0% { transform: scale(0.95); }
+		50% { transform: scale(1.07); }
+		100% { transform: scale(1); }
+	}
+
+	.animate-arcade-pop {
+		animation: arcade-pop 450ms cubic-bezier(0.2, 0.9, 0.3, 1.2) both;
+	}
+
+	@keyframes glow-pulse {
+		0%, 100% { opacity: 0.35; filter: blur(8px); }
+		50% { opacity: 0.8; filter: blur(12px); }
+	}
+
+	.animate-glow-pulse {
+		animation: glow-pulse 1.2s ease-in-out infinite;
+	}
+
+	@keyframes sweep {
+		0%   { transform: translateY(120%); opacity: 0; }
+		20%  { opacity: 1; }
+		100% { transform: translateY(-120%); opacity: 0; }
+	}
+
+	.scan-sweep {
+		animation: sweep 900ms ease-out 1;
+	}
+
+	/* Aparición de foto: de blur/grayscale y recorte vertical a nítida */
+	@keyframes photo-reveal {
+		0% {
+			transform: scale(0.96) rotate(-0.5deg);
+			filter: grayscale(100%) blur(8px) brightness(0.95) contrast(1.05);
+			clip-path: inset(0 0 100% 0);
+		}
+		60% {
+			clip-path: inset(0 0 0 0);
+		}
+		100% {
+			transform: scale(1) rotate(0);
+			filter: none;
+		}
+	}
+
+	.animate-photo-reveal {
+		animation: photo-reveal 650ms cubic-bezier(0.2, 0.9, 0.3, 1.2) both;
+	}
+
+	/* Flash neon alrededor de la foto cuando entra */
+	@keyframes neon-flash {
+		0% { opacity: 0; filter: blur(10px); transform: scale(0.98); }
+		35% { opacity: 0.9; filter: blur(6px); transform: scale(1.01); }
+		100% { opacity: 0; filter: blur(12px); transform: scale(1); }
+	}
+	.animate-neon-flash { animation: neon-flash 520ms ease-out both; }
+
+	/* Entrada del nombre */
+	@keyframes name-slide {
+		0% { opacity: 0; transform: translateY(8px); letter-spacing: 0.08em; }
+		60% { opacity: 1; }
+		100% { opacity: 1; transform: translateY(0); letter-spacing: 0; }
+	}
+	.animate-name-slide { animation: name-slide 480ms ease-out both; }
+.bg-neon-grid::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background-image:
+		linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+		linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px);
+	background-size: 24px 24px, 24px 24px;
+	pointer-events: none;
+}

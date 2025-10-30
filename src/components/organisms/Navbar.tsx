@@ -5,6 +5,7 @@ import { HiMenu, HiX } from 'react-icons/hi';
 
 export const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [logoError, setLogoError] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -22,12 +23,25 @@ export const Navbar: React.FC = () => {
           <div className="shrink-0 flex items-center">
             <Link to="/" className="flex items-center space-x-2 group">
               <div className="relative">
-                <div className="absolute -inset-1 bg-linear-to-r from-[#780D80] to-[#1E3374] rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
-                <div className="relative bg-linear-to-r from-[#780D80] to-[#1E3374] text-white px-4 py-2 rounded-lg font-bold text-xl">
-                  IUSH
+                {/* Glow/halo detrás del logo */}
+                <div className="absolute -inset-1  rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
+
+                {/* Contenedor del logo */}
+                <div className="relative  px-2 py-1 select-none">
+                  {logoError ? (
+                    <div className="text-[#1E3374] font-bold text-xl px-2">IUSH</div>
+                  ) : (
+                    <img
+                      src="/logo.png"
+                      alt="IUSH"
+                      className="h-10 w-auto object-contain block"
+                      onError={() => setLogoError(true)}
+                      draggable={false}
+                    />
+                  )}
                 </div>
               </div>
-              <span className="hidden sm:block text-sm text-gray-600 font-medium">
+              <span className="hidden sm:block text-2xl text-gray-600 font-bold">
                 Diseño Gráfico
               </span>
             </Link>

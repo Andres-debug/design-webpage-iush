@@ -67,7 +67,7 @@ export const CurriculumGrid: React.FC = () => {
         <div className="space-y-8">
           {groupedByMoment.map(({ moment, levels }) => (
             <section key={moment} aria-labelledby={`moment-${moment}`}>
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex items-center gap-3 mb-4 sticky top-16 bg-gray-50/80 backdrop-blur supports-backdrop-filter:bg-gray-50/60 py-2 z-10">
                 <div className="h-0.5 flex-1 bg-gray-200" />
                 <h3 id={`moment-${moment}`} className="text-xl font-semibold text-gray-900 whitespace-nowrap">
                   {moment}
@@ -83,6 +83,7 @@ export const CurriculumGrid: React.FC = () => {
                     subjects={levelData.subjects as Subject[]}
                     credits={levelData.credits}
                     badge={levelData.badge}
+                    animationDelayMs={index * 80}
                     onSubjectClick={handleSubjectClick}
                   />
                 ))}
