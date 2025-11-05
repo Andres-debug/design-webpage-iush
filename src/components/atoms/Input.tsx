@@ -1,5 +1,6 @@
 interface InputProps {
   type?: 'text' | 'email' | 'tel' | 'password';
+  name?: string;
   placeholder?: string;
   value?: string;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
@@ -9,7 +10,8 @@ interface InputProps {
 }
 
 export const Input: React.FC<InputProps> = ({ 
-  type = 'text', 
+  type = 'text',
+  name,
   placeholder, 
   value, 
   onChange, 
@@ -20,6 +22,7 @@ export const Input: React.FC<InputProps> = ({
   return (
     <input
       type={type}
+      name={name}
       placeholder={placeholder}
       value={value}
       onChange={onChange}

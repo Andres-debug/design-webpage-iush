@@ -1,4 +1,5 @@
 interface TextareaProps {
+  name?: string;
   placeholder?: string;
   value?: string;
   onChange?: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
@@ -8,7 +9,8 @@ interface TextareaProps {
   style?: React.CSSProperties;
 }
 
-export const Textarea: React.FC<TextareaProps> = ({ 
+export const Textarea: React.FC<TextareaProps> = ({
+  name,
   placeholder, 
   value, 
   onChange, 
@@ -19,6 +21,7 @@ export const Textarea: React.FC<TextareaProps> = ({
 }) => {
   return (
     <textarea
+      name={name}
       placeholder={placeholder}
       value={value}
       onChange={onChange}

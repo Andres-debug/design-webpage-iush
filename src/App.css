@@ -101,3 +101,41 @@
 	background-size: 24px 24px, 24px 24px;
 	pointer-events: none;
 }
+
+/* Estilos para el carrusel Swiper */
+.highlight-swiper {
+	padding: 40px 0 60px !important;
+}
+
+.highlight-swiper .swiper-slide {
+	opacity: 0.4;
+	transition: opacity 0.3s ease;
+}
+
+.highlight-swiper .swiper-slide-active {
+	opacity: 1;
+}
+
+.highlight-swiper .swiper-pagination-bullet {
+	background: white;
+	opacity: 0.5;
+	width: 10px;
+	height: 10px;
+}
+
+.highlight-swiper .swiper-pagination-bullet-active {
+	opacity: 1;
+	background: white;
+}
+
+.highlight-swiper .swiper-button-next,
+.highlight-swiper .swiper-button-prev {
+	color: white;
+	opacity: 0.7;
+	transition: opacity 0.3s ease;
+}
+
+.highlight-swiper .swiper-button-next:hover,
+.highlight-swiper .swiper-button-prev:hover {
+	opacity: 1;
+}
