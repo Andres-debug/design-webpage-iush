@@ -3,6 +3,7 @@ import { IntroSection } from '../components/organisms/IntroSection';
 import { HighlightSection } from '../components/organisms/HighlightSection';
 import { InfoSection } from '../components/organisms/InfoSection';
 import { CTASection } from '../components/organisms/CTASection';
+import { IUSHCtaBanner } from '../components/organisms/IUSHCtaBanner';
 
 export const Inicio: React.FC = () => {
   return (
@@ -26,6 +27,9 @@ export const Inicio: React.FC = () => {
 
       {/* Descripción del programa y CTA */}
       <CTASection />
+
+      {/* CTA hacia el sitio institucional */}
+      <IUSHCtaBanner />
     </div>
   );
 };
